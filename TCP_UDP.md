@@ -1,4 +1,4 @@
-## TCP and UDP Explained
+## TCP and UDP
 
 ### TCP (Transmission Control Protocol)
 
