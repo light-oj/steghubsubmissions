@@ -10,42 +10,42 @@ Azure, Microsoft's cloud computing platform, offers a wide range of services tha
    - Log in to the Azure Portal and navigate to the Virtual Machines section.
    - Click on "Create" to start the VM creation process.
    - Choose a Linux distribution (e.g., Ubuntu, CentOS) as the operating system for your VM.
-   - Configure the VM size, networking settings, and authentication (SSH key or password).
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/9a294502-820d-403f-856b-24c4ed12e28f)
+   - - Configure the VM size, networking settings, and authentication (SSH key or password).
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/c2c61bee-e6e7-4632-a013-3634936de0c8)
    - Once the VM is provisioned, connect to it using SSH.
 
 2. **Install Apache:**
    - Update the package repository on the VM using the package manager (e.g., apt for Ubuntu, yum for CentOS).
    - Install the Apache web server package.
    - Start the Apache service and enable it to start on boot.
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/7e6b73db-6212-4ca3-8f87-e110a5dc2169)
    - Test Apache by accessing the VM's public IP address in a web browser.
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/9f0a1d54-5056-43ac-90d0-288a59d24110)
+
 
 3. **Install MySQL:**
    - Install the MySQL server package using the package manager.
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/66eded0f-9a60-404a-91d4-67af0903d7ef)
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/c730eceb-b5da-4a44-bc01-26089a69b663)
    - Secure MySQL installation by running the security script (optional but recommended).
    - Start the MySQL service and enable it to start on boot.
    - Access the MySQL command-line interface to create databases, users, and grant permissions as needed.
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/2837c422-2f33-4b7a-9b58-e50e5c010aeb)
+
 
 4. **Install PHP/Python/Perl:**
    - Install the appropriate runtime environment for your chosen programming language (e.g., PHP for LAMP).
-   - Install any necessary dependencies and modules required for web development (e.g., PHP extensions).
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/6bb761c4-9192-4c9e-b6da-70c2080f9e0c)
    - Test PHP installation by creating a simple PHP file and accessing it via the web server.
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/716eaad3-87d2-4977-8389-f52a0a3b297e)
+   - ![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/ce1e0b4d-428b-4423-a012-f2689ce37b61)
 
-5. **Configure Firewall and Networking:**
-   - Open necessary ports in the Azure Network Security Group (NSG) to allow traffic to the VM (e.g., HTTP port 80, HTTPS port 443).
-   - Configure DNS settings to point your domain name to the public IP address of the VM (optional but recommended).
 
-6. **Deploy Web Applications:**
-   - Upload your web application files to the appropriate directory on the VM (e.g., /var/www/html for Apache).
-   - Configure file permissions to ensure proper access to the web application files by the web server.
+![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/09964a1d-6e98-4812-be3e-be2c491a90ba)
+![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/a07550dd-3755-478e-bb41-1f5df3dc52df)
+![image](https://github.com/light-oj/steghubsubmissions/assets/46436281/e7ab2ec6-180c-481a-9d0f-cb62f088d92f)
 
-7. **Monitor and Manage Resources:**
-   - Monitor the performance and health of your Azure resources using Azure Monitor.
-   - Set up alerts for key metrics to ensure timely notification of any issues.
-   - Regularly update and patch your VM's operating system and software components to ensure security and stability.
-
-### Conclusion
-
-Implementing a LAMP stack on Azure provides a scalable and reliable platform for hosting web applications and websites. By following the steps outlined above, users can quickly set up and configure the necessary infrastructure components to deploy their LAMP-based applications on Azure's cloud platform.
 
 
 
