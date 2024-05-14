@@ -1,3 +1,5 @@
+## Implementing LEMP Stack
+
 ### Installing the Nginx web server
 
 First, we update our ubuntu linux by running the command below
