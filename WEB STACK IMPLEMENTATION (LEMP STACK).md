@@ -210,6 +210,7 @@ Create a PHP script that will connect to MySQL and pull the data from the table 
 Run the following command:
 
 `nano /var/www/projectLEMP/todo_list.php`
+
 Copy and paste this into the todo_list.php script:
 
 ``` 
