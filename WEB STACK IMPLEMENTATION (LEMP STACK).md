@@ -246,13 +246,17 @@ mysql> exit
 
 ![](https://lh7-us.googleusercontent.com/hHk7CP1nli4G4okt0WiCA6rDtkDC6-5matdtDKrDVmFES5U3JZMBiCPAkEVSpRgP7BQfm9x1JXoD1ag0-ygv92RxarwN5FgeirKk36H78t0bkg_ep5niCpNYHAuvodWgjkNbpdPB91AfLS_wz49bZ3I)
 
+
 Create a PHP script that will connect to MySQL and pull the data from the table and have it displayed.
 
 Run the following command:
 
+
 nano /var/www/projectLEMP/todo\_list.php
 
+
 Copy and paste this into the todo\_list.php script:
+
 
 <?php
 
@@ -285,6 +289,7 @@ try {
     die();
 
 }
+
 
 Save and exit the file to save the changes.
 
