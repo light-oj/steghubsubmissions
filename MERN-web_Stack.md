@@ -18,10 +18,12 @@ After successful creation, launch the instance:
 ##### Step 1: Backend Configuration
 Run the update command to bring your instance up to speed with the latest updates available.
 `sudo apt update`
+
 ![](https://lh7-us.googleusercontent.com/BcJqHECvhl1d68khgDUMPFz7F_7e-Hg3GDu1zsHOiG8ob1beuh-SUrjEaIxll8l9mtUOUV85EI9gyNbCEC1uudh6qeEzG8po6avrhQVTokrFIuK3nQL2EGIZFGb9-cM8aj9gfrNX3Gkrkq3zqxcHTUc)
 
 Next, we run the upgrade command as we can see from the update command that there are packages that can be upgraded.
 `sudo apt upgrade`
+
 ![](https://lh7-us.googleusercontent.com/hjvJCY44sBDBh5-SZ8SnlgyTmmuXulptvcbbyWJvU9rEAL2iSPIA14KtMT0q_KI9OvBmd5eBEKhjw8b4puMYBODZyS1jtImSC7431P0sav-ZfdmjDYDqH9u81W6T1AWCwHvN8ZTKCO_ezzeEJ467MQg)
 
 You will receive a prompt asking if you want to continue, enter `Y` and upgrades will be installed. The system will ask for a reboot after the upgrade, you can run `sudo reboot` to reboot the instance.
@@ -36,7 +38,7 @@ We proceed to install node.js on the server using the command below
 
 ![](https://lh7-us.googleusercontent.com/RpMQQF7ViPYCiUtN20fTe6UMntAOsWGEgzfXkd5Q98Hjds5SM1v8gPsb5e6C4XHidY4CFe-ekmh8UgO3VydItztkJ7odZYmKJi8fiSD9-rtzU3d1QMT5otmbIfvdS_9xbd4nKEuVEkIr2D1qC8iAgL4)
 
-It is important to note that the command above installs both \`nodejs\` and \`npm\`. NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages and to manage dependency conflicts.
+It is important to note that the command above installs both `node.js` and `npm`. NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages and to manage dependency conflicts.
 
 Next, we can verify the node installation with the command
 `node -v` & `npm -v`
@@ -52,7 +54,7 @@ To set up our To-Do project, let’s create a directory for the project.
 We can run the command `ls` to verify that the Todo directory is created
 ![](https://lh7-us.googleusercontent.com/heOVkLGpFw4DOGD_LhH7JXyNGOQQlzlf3slVwZyYxMzhp2fIjSzOuPxROvly0DHRZNHLDtNmOt2TlPxlpb43aPCFFHGkaytLb5skEzYN8xrbobyDFqcF9-XyLnWokhCTZ7IKJvUOg1_n3PYV51f38q4)
 
-Extra: To see some more useful information about files and directories, you can use following combination of keys `ls -lih` - it will show you different properties and size in human readable format. You can learn more about different useful keys for ls command with ls --help.
+Extra: To see some more useful information about files and directories, you can use the following combination of keys `ls -lih` - it will show you different properties and sizes in human-readable format. You can learn more about different useful keys for the `ls` command with ls --help.
 
 Now, let’s change to our newly created Todo directory by using the command `cd Todo`
 
@@ -69,11 +71,11 @@ Next, we will Install ExpressJs and create the Routes directory.
 
 #### Install ExpressJS
 
-Express is a framework for Node.js, therefore a lot of things developers would have programmed are already taken care of out of the box. Therefore it simplifies development, and abstracts a lot of low level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.
+Express is a framework for Node.js, therefore a lot of things developers would have programmed are already taken care of out of the box. Therefore it simplifies development and abstracts a lot of low-level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.
 
 To use express, we install it using `npm` by running the command below:
-
 `npm install express`
+
 ![](https://lh7-us.googleusercontent.com/E_tKsX21K90xwN3wOTN7ARYy0wENxbrNu-FQ01MW4o8effRy4HIYz1HZ4p1yWxfYaBSVlYT-IY9KXPn-Sms38X9UDqaQh7ly3qAuXM-M1a0CKbAtyWZOlKYUnuQ9DlW_HKngCNK_D7EJ8VEdPe9Ef8E)
 
 Next, we create a file index.js with the command `touch index.js`
@@ -83,7 +85,8 @@ Then, run `ls` to confirm that the `index.js` file is successfully created.
 
 Install the *dotenv* module
 
-To install dotenv module, we run the command \`npm install dotenv\`
+To install dotenv module, we run the command `npm install dotenv`
+
 ![](https://lh7-us.googleusercontent.com/fqWJfRAUvLf2tXpfzr-Sa0KaUolQ-JHdFigJrIcXSXq4L_aEsjkB0R0enICh0_jqHNP2TTerheqYd0WivXXsgj_epPferHmX098rY_x5UJ8GIrE_RilA4o5MD8rK4kYWYlRZK3zs4xTD6B_B3wUSzFE)
 
 Let’s open the index.js file with the command below:
